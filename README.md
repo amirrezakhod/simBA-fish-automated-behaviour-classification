@@ -1,6 +1,6 @@
 
 
-# 🐟 Lionfish Feature Extraction Guide
+# Lionfish Feature Extraction Guide
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/e4abd305-e54e-4c5c-8bc6-e44844e09846" />
 
 This feature extraction code is specifically designed to support the classification of behaviors in mid-bodied fishes, such as lionfish, using the SimBA (Simple Behavioral Analysis) platform.
