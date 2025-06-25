@@ -9,10 +9,10 @@ This feature extraction code is specifically designed to support the classificat
 ## 📖 Available Guides
 
 - ✅ [Feature Inclusion Guide](Lionfish_feature_extraction_code/feature_inclusion_guide.md)  
-  Learn when to include or exclude specific features in your pipeline.
+  Learn how to include or exclude specific features in your pipeline.
 
 - 🎯 [Feature Usage Recommendations](docs/feature_usage_guide.md)  
-  Find out which features are best for detecting different behaviors.
+  Find out which features are best for detecting your specific behaviours.
 
 - ▶️ [Demo Execution Instructions](docs/run_instructions.md)  
   Run a demo example with DeepLabCut CSV and video.
