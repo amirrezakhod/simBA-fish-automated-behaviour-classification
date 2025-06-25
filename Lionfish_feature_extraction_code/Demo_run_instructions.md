@@ -4,7 +4,7 @@ This short guide walks you through running our custom feature extraction script 
 
 ⚙️ Step-by-Step Instructions
 
-1. Install [SimBA](docs/installation_new.md)
+1. Install [[SimBA](docs/installation_new.md](https://github.com/sgoldenlab/simba/tree/master)
 
 Follow the official SimBA installation guide.
 
