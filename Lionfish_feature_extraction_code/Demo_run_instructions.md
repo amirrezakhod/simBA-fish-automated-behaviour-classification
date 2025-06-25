@@ -9,7 +9,7 @@ This short guide walks you through running our custom feature extraction script 
 
 Follow the official SimBA installation guide.
 
-2. Download [Required Files](Lionfish_feature_extraction_code) which contains: Feature_extraction_file and Simba_config/project_folder
+2. Download [Required Files](https://github.com/amirrezakhod/Fish-simba-features/tree/main/Lionfish_feature_extraction_code) which contains: Feature_extraction_file and Simba_config/project_folder
 
 
 3. Open the Project in SimBA
