@@ -1,33 +1,20 @@
-##🐟 Lionfish Feature-Extraction Demo (SimBA)
+## 🐟Lionfish Feature-Extraction Demo (SimBA)
 
 This short guide walks you through running our custom feature extraction script on an 11-second lionfish video already tracked with DeepLabCut.
+---
 
-⚙️ Step-by-Step Instructions
+⚙️  Instructions
 
 1. Install [SimBA](https://github.com/sgoldenlab/simba/tree/master)
 
 Follow the official SimBA installation guide.
 
-2. Download Required Files
+2. Download [Required Files](Lionfish_feature_extraction_code) which contains: Feature_extraction_file and Simba_config/project_folder
 
-[Feature Extraction Script](Lionfish_feature_extraction_code/Feature_extraction_file)
-
-Project Folder (Demo Video & CSV): project_folder
 
 3. Open the Project in SimBA
 
-Set your working directory to the folder containing project_folder/. Launch SimBA and load the following configuration file: 
-This short README walks you through running our custom feature-extraction script on an 11-second lionfish video that has already been tracked with DeepLabCut.
-
-1. Install SimBA
-Follow the official installation guide at https://github.com/sgoldenlab/simba.
-
-2. Download the feature extraction file and the project foloder which containds a demo video and deeplabcut tracked csv data
-feature extraction file: https://github.com/amirrezakhod/Fish-simba-features/blob/main/Lionfish_feature_extraction_code/Feature_extraction_file/lionfish_feature_extraction.py
-project foloder:  https://github.com/amirrezakhod/Fish-simba-features/tree/main/Lionfish_feature_extraction_code/Simba_config/project_folder
-
-3.  Open the project
-Change your working directory to the folder that contains project_folder/, then launch SimBA and load the configuration file:
+Set your working directory to the folder containing project_folder/. Launch SimBA and load the configuration file found in:
 Lionfish_feature_extraction_code/Simba_config/project_folder/project_config.ini
 
 4. Select the custom extractor
