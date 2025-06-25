@@ -18,6 +18,7 @@ This feature extraction code is specifically designed to support the classificat
   Run a demo feature extraction with DeepLabCut CSV.
   
 
-![06242-ezgif com-gif-to-mp4-converter](https://github.com/user-attachments/assets/29496d29-b716-4d4d-bf5a-27abfd7d3932)
 
+![06242-ezgif com-gif-to-mp4-converter](https://github.com/user-attachments/assets/29496d29-b716-4d4d-bf5a-27abfd7d3932)
+H=Hovering, T=Attack, S=Swimming, R=Resting
 
