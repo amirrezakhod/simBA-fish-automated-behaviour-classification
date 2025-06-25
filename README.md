@@ -14,7 +14,7 @@ This feature extraction code is specifically designed to support the classificat
 - 🎯 [Feature Usage Recommendations](Lionfish_feature_extraction_code/Feature Usage Guide.md)  
   Find out which features are best for detecting your specific behaviours.
 
-- ▶️ [Demo Execution Instructions](docs/run_instructions.md)  
+- ▶️ [Demo Execution Instructions](Lionfish_feature_extraction_code/Demo_run_instructions.md)  
   Run a demo example with DeepLabCut CSV and video.
   
 
