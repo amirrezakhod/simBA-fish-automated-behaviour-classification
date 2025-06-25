@@ -8,7 +8,7 @@ This feature extraction code is specifically designed to support the classificat
 
 ## 📖 Available Guides
 
-- ✅ [Feature Inclusion Guide]([docs/feature_inclusion_guide.md](Lionfish_feature_extraction_code/feature_inclusion_guide.md))  
+- ✅ [Feature Inclusion Guide](docs/feature_inclusion_guide.md](Lionfish_feature_extraction_code/feature_inclusion_guide.md)  
   Learn when to include or exclude specific features in your pipeline.
 
 - 🎯 [Feature Usage Recommendations](docs/feature_usage_guide.md)  
