@@ -3,7 +3,8 @@
 ## Fish Feature Extraction Guide for SimBA
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/e4abd305-e54e-4c5c-8bc6-e44844e09846" />
 
-This feature extraction code is specifically designed to support the classification of behaviors in mid-bodied fishes, such as lionfish, using the SimBA (Simple Behavioral Analysis) platform.
+Feature extraction converts raw pose outputs (e.g., from DeepLabCut (DLC))—joint coordinates and detection likelihoods—into interpretable kinematic and postural descriptors such as tail-beat frequency, movement irregularity (e.g., path tortuosity or spectral entropy) over defined time windows. Because recording conditions (lighting, lens, viewpoint, frame rate) and species behaviours vary widely, maintaining separate extractor scripts per experiment is not scalable or reproducible. We propose a single, configurable extractor that exposes a broad library of fish-relevant features; users enable only the metrics that match their species and behavioural question, without modifying code and by simply adding their desired features to the feature inclusion/exclusion list defined in the feature extractor file. A decision guide maps common scenarios to features—for example, pursuit/hunting → tail-beat frequency, burst acceleration, heading-change rate.
+This feature extraction code is specifically designed to support the classification of behaviours in mid-bodied fishes, such as lionfish, using the SimBA (Simple Behavioral Analysis) platform.
 ---
 
 ## 📖 Available Guides
