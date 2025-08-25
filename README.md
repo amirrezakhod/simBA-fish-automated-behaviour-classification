@@ -10,12 +10,10 @@ This feature extraction code is specifically designed to support the classificat
 
 ## 📖 Available Guides
 
-- ✅ [Feature Inclusion Guide](Lionfish_feature_extraction_code/feature_inclusion_guide.md)
-  learn how to include or exclude specific features in your pipeline.
 - 🎯 [Feature Usage Recommendations](https://github.com/amirrezakhod/Fish-simba-features/blob/main/Lionfish_feature_extraction_code/Feature%20Usage%20Guide.md)
  Find out which features are best for detecting your specific behaviours.
 
-- ▶️ [Demo Execution Instructions](Lionfish_feature_extraction_code/Demo_run_instructions.md)
+- ▶️ [Demo hunting](Lionfish_feature_extraction_code/Demo_run_instructions.md)
   Run a demo feature extraction with DeepLabCut CSV.
   
 
