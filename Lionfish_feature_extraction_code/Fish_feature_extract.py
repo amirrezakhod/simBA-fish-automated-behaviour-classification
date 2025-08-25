@@ -590,13 +590,3 @@ class FishFeatureExtractor(ConfigReader, FeatureExtractionMixin):
         write_df(self.csv_df_combined.astype(np.float32), self.file_type, self.save_path)
         print(f"[SimBA] Features saved successfully! Shape: {self.csv_df_combined.shape}")
 
-# NOTE: You'll need to copy ALL the feature extraction methods from lionfish_feature_extraction.py
-# into this class. I've included the key structure and a few example methods due to space constraints.
-# The methods to copy include:
-# - angle2pt_degrees, angle2pt_radians, angle2pt_sin, angle2pt_cos
-# - count_values_in_range, convex_hull_calculator_mp
-# - angular_dispersion, windowed_frequentist_distribution_tests
-# - consecutive_frames_in_same_compass_direction, framewise_degree_shift
-# - All calc_* methods (calc_rotation, calc_angular_dispersion, etc.)
-# - bouts_in_same_direction, hot_end_encode_compass
-# - calc_switch_direction, and all other methods from the original file
