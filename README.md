@@ -10,7 +10,7 @@ This feature extraction code is specifically designed to support the classificat
 
 ## 📖 Available Guides
 
-- 🎯 [Feature Usage Recommendations](https://github.com/amirrezakhod/Fish-simba-features/blob/main/Lionfish_feature_extraction_code/Feature%20Usage%20Guide.md)
+- 🎯 [feature-catalog](feature-catalog)
  Find out which features are best for detecting your specific behaviours.
 
 - ▶️ [Demo hunting](Lionfish_feature_extraction_code/Demo_run_instructions.md)
