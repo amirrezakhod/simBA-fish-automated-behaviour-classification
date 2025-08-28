@@ -13,7 +13,7 @@ We present a SimBA-compatible extension tailored to fish behaviour pipelines. It
  Find out which features are best for detecting your specific behaviours.
 
 - ▶️ [Demo hunting](Lionfish_feature_extraction_code/Demo_run_instructions.md)
-  Run a demo feature extraction with DeepLabCut CSV.
+ Build a classifier for hunting behaviour.
   
 
 
