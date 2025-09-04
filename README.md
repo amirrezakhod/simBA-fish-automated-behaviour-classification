@@ -15,7 +15,7 @@ We present a SimBA-compatible extension tailored to fish behaviour pipelines. It
 - ▶️ [Demo hunting](Lionfish_feature_extraction_code/Demo_run_instructions.md)
  Build a classifier for hunting behaviour.
   
--[Behaviour-guide](Behaviour_guide)
+- 🐟 [Behaviour-guide](Behaviour_guide)
 Example videos and table guide of hunting, resting, swimming and hovering in lionfish
 
 ![06242-ezgif com-gif-to-mp4-converter](https://github.com/user-attachments/assets/29496d29-b716-4d4d-bf5a-27abfd7d3932)
