@@ -4,15 +4,6 @@ This demo assumes you’re already comfortable with SimBA’s standard flow. We 
 
 ---
 
-## What you’ll use
-- Training videos: [`Training_video/`](Training_video/)
-- Test video: [`Testing_videos/`](Testing_videos/)
-- Behaviour guide (examples & videos): [`../Behaviour_guide/`](../Behaviour_guide/)
-- Feature catalog (definitions): [`../feature-catalog/`](../feature-catalog/)
-- Custom fish feature extractor: [`../Lionfish_feature_extraction_code/FishFeatureExtractor_3.1.py`](../Lionfish_feature_extraction_code/FishFeatureExtractor_3.1.py)
-
----
-
 ## 1) Create a SimBA project
 Create a new SimBA project, add the **two training videos** from `Training_video/` (with their DLC CSVs), and configure your **body-parts** to match the landmarks below.
 
@@ -58,12 +49,12 @@ Refer to the **feature catalog** for what each feature means: [`../feature-catal
 
 ## 5) Label behaviours & train the model
 - Use the **Behaviour Guide** to label **Hunting** on the training videos: [`../Behaviour_guide/`](../Behaviour_guide/)  
-- Train your classifier (e.g., Random Forest) using the extracted features **plus** ROI channels.
+- Train your classifier using [these settings](Hunting_demo/Images_Gifs/Hunting_0_meta.csv).
 
 ---
 
 ## 6) Evaluate on an unseen video
-- Add the **test** video from [`Testing_videos/`](Testing_videos/)  
+- make another project with the **test** video from [`Testing_videos/`](Testing_videos/)  
 - Run the trained model on it  
 - Inspect results with **Interactive Probability Plot** in SimBA
 
@@ -71,15 +62,6 @@ Refer to the **feature catalog** for what each feature means: [`../feature-catal
 ![Hunting probability 1](Images_Gifs/Hunt_prob1.png)  
 ![Hunting probability 2](Images_Gifs/Hunt_prob2.png)
 
-> In this demo, **Hunting** is detected using **Basic Movement** features derived from pose, showing a simple fish-aware pipeline can perform well.
+> In this demo, **Hunting** is detected using **Basic Movement** features derived from pose. Statistical measurements of your classifier will be available in your models folder 
 
 ---
-
-## Quick links (resources)
-- Training videos: [`Training_videos/`](Training_videos/)  
-- Test video: [`Testing_videos/`](Testing_videos/)  
-- Behaviour guide: [`../Behaviour_guide/`](../Behaviour_guide/)  
-- Feature catalog: [`../feature-catalog/`](../feature-catalog/)  
-- Fish feature extractor: [`../Lionfish_feature_extraction_code/FishFeatureExtractor_3.1.py`](../Lionfish_feature_extraction_code/FishFeatureExtractor_3.1.py)
-
-
