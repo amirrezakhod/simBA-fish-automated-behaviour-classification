@@ -62,6 +62,7 @@ Refer to the **feature catalog** for what each feature means: [`../feature-catal
 ![Hunting probability 1](Images_Gifs/Hunt_prob1.png)  
 ![Hunting probability 2](Images_Gifs/Hunt_prob2.png)
 
-> In this demo, **Hunting** is detected using **Basic Movement** features derived from pose. Statistical measurements of your classifier will be available in your models folder 
+> In this demo, **Hunting** is detected using **Basic Movement** features shown by A clear threshhold separation between Hunting and not Hunting in the probability plots. Statistical measurements of your classifier will be available in your models folder.
+> Note that this is a simplified demo and often more kinematics are required for more complex behaviours. Choosing the relevant features only, allows you to avoid overfitting and achieve a more clear threshhold separation.
 
 ---
