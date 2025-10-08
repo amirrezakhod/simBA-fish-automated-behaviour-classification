@@ -24,3 +24,5 @@ Example videos and a table guide of hunting, resting, swimming and hovering in l
 
 H=Hovering, T=Attack, S=Swimming, R=Resting
 
+[supplementary figures and tables](Supplementary_Materials) for the paper: (Applying machine learning tools for automated behaviour classification in invasive lionfish and comparison with human observations) DOI:10.21203/rs.3.rs-7153188/v1 by: Amirreza Khodaparast Kelidbari et al, 2025
+
