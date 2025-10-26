@@ -1,0 +1,11 @@
+1. Body-Part Naming Consistency
+Ensure that the body-part names in your dataset exactly match the [landmark](feature-catalog/Landmark_positions.jpg) indices used in your sample. For example, the eye corresponds to “BodyPart 2,” name it precisely “BodyPart 2.” Likewise, the mouth is “BodyPart 1,” use that same name consistently across all landmarks.
+
+2. Matching Columns for Model Training
+When training a model, your dataset must contain the exact same feature columns as those in your extracted features file. The only additional columns should be binary (0 or 1) labels, one for each category or behavior of interest.
+
+3. Verifying Body-Part Folder
+Always check the body-parts folder to ensure that all the body parts appearing in your tracking CSV file are included. Missing body parts are a common source of errors.
+
+4. Feature Dependencies
+When using the feature extraction file, Some features depend on others. For instance, velocity requires displacement, because velocity is defined as displacement per unit of time. Make sure all prerequisite features are calculated before computing higher-level metrics.
